@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+}
+
+.left {
+    height: 800px;
+    flex-direction: column;
+    display: flex;
+    overflow-y: scroll;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
